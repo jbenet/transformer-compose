@@ -1,0 +1,28 @@
+{
+  "name": "transformer-compose",
+  "version": "0.1.0",
+  "description": "transformer compose conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenet/transformer-compose.git"
+  },
+  "keywords": [
+    "transformer",
+    "compose",
+    "conversions"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer-compose/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer-compose",
+  "dependencies": {
+    "lodash.compose": "^2.4.1",
+    "lodash.map": "^2.4.1"
+  }
+}
