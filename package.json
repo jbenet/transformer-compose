@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jbenet/transformer-compose",
   "dependencies": {
     "lodash.compose": "^2.4.1",
-    "lodash.map": "^2.4.1"
+    "lodash.map": "^2.4.1",
+    "transformer-conversion": "^0.1.2"
   }
 }
