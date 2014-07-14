@@ -1,12 +1,10 @@
-var Value = require('transformer-conversion').Value;
 var defer = require('./defer');
 var map = require('lodash.map');
 
 // composition of sync functions.
 module.exports = function transformerAsyncCompose(conversions) {
   conversions = map(conversions, forceAsyncConversion);
-  var composed = composeConversions(conversions);
-  return Value.wrapAsync(conversions[0].inType, composed);
+  return composeConversions(conversions);
 }
 
 function forceAsyncConversion(conversion) {

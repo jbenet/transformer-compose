@@ -1,6 +1,6 @@
 {
   "name": "transformer-compose",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "transformer compose conversions",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "dependencies": {
     "lodash.compose": "^2.4.1",
     "lodash.map": "^2.4.1",
-    "transformer-conversion": "^0.1.2"
-  }
+    "transformer-conversion": "^0.1.3"
+  },
+  "devDependencies": {}
 }
